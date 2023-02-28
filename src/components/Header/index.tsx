@@ -1,9 +1,10 @@
-import { HeaderContainer, HeaderTitle, HeaderNav, Link } from './styles';
+import { HeaderContainer, HeaderNav } from './styles';
+import Link from 'next/link';
 
 export default function Header() {
   return (
     <HeaderContainer>
-      <HeaderTitle href='/'>Lacrei</HeaderTitle>
+      <Link href='/'>Lacrei</Link>
       <HeaderNav>
         <Link href="/">Home</Link>
         <Link href="/pessoa-usuaria">Pessoa Usuária</Link>
