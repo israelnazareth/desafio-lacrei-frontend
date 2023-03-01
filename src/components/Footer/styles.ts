@@ -4,8 +4,6 @@ export const FooterContainer = styled.footer`
   display: flex;
   flex-direction: column;
   border-top: 1px solid #B0E0D3;
-  position: absolute;
-  bottom: 0;
   margin: 0px 1rem;
   padding-top: 1rem;
   padding-bottom: 0.5rem;
@@ -19,7 +17,7 @@ export const FooterLinks = styled.div`
   gap: 0.25rem;
 
   a {
-    color: #000;
+    color: #313131;
     text-decoration: none;
     font-size: 0.875rem;
   }
