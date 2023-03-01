@@ -9,8 +9,13 @@ import {
   LinkButton,
   PageImage
 } from "@/styles/Home"
+import { useEffect } from 'react'
 
 export default function Home() {
+  useEffect(() => {
+    document.title = 'Home | Desafio Lacrei'
+  }, [])
+
   return (
     <>
       <MainContainer>

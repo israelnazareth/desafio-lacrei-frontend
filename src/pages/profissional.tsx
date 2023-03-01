@@ -7,8 +7,13 @@ import {
   MainParagraph,
   PageImage
 } from '@/styles/CommonPages';
+import { useEffect } from 'react';
 
 export default function ProfessionalPage() {
+  useEffect(() => {
+    document.title = 'Profissional | Desafio Lacrei'
+  }, [])
+
   return (
     <>
       <MainContainer>

@@ -7,8 +7,13 @@ import {
   MainParagraph,
   PageImage
 } from '@/styles/CommonPages';
+import { useEffect } from 'react';
 
 export default function UserPage() {
+  useEffect(() => {
+    document.title = 'Pessoa Usuária | Desafio Lacrei'
+  }, [])
+
   return (
     <>
       <MainContainer>
