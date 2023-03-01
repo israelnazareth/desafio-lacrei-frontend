@@ -25,6 +25,10 @@ export const HeaderContainer = styled.header`
     justify-content: space-between;
     padding: 0.5rem 2rem;
   }
+
+  @media (min-width: 1040px) {
+    padding: 0.5rem 4rem;
+  }
 `;
 
 export const HeaderNav = styled.nav`

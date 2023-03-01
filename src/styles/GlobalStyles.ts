@@ -5,10 +5,11 @@ export const GlobalStyles = createGlobalStyle`
   * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: Nunito, sans-serif;
+    box-sizing: border-box;
   }
-  body {
+  body, html {
+    height: 100%;
     background: #FFF;
     color: #000;
     -webkit-font-smoothing: antialiased;

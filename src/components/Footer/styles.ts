@@ -16,6 +16,10 @@ export const FooterContainer = styled.footer`
     height: 10rem;
     margin: 0 2rem;
   }
+
+  @media (min-width: 1040px) {
+    margin: 0 4rem;
+  }
 `;
 
 export const FooterLinks = styled.div`

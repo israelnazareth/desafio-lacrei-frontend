@@ -7,6 +7,7 @@ import {
   MainParagraph,
   MainButtons,
   LinkButton,
+  MainImage,
   PageImage
 } from "@/styles/Home"
 import { useEffect } from 'react'
@@ -27,7 +28,9 @@ export default function Home() {
             <LinkButton href="/profissional" className="secondary">Profissional</LinkButton>
           </MainButtons>
         </MainContent>
-        <PageImage src={HomeImage} alt="A health professional" />
+        <MainImage>
+          <PageImage src={HomeImage} alt="A health professional" />
+        </MainImage>
       </MainContainer>
     </>
   )
