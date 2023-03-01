@@ -9,6 +9,13 @@ export const FooterContainer = styled.footer`
   padding-bottom: 0.5rem;
   gap: 0.5rem;
   width: stretch;
+
+  @media (min-width: 520px) {
+    justify-content: space-between;
+    padding: 2rem 0px 0.5rem;
+    height: 10rem;
+    margin: 0 2rem;
+  }
 `;
 
 export const FooterLinks = styled.div`
@@ -29,6 +36,15 @@ export const FooterLinks = styled.div`
 
   .selected {
     font-weight: bold;
+  }
+
+  @media (min-width: 520px) {
+    flex-direction: row;
+    gap: 2.5rem;
+    
+    a {
+      font-size: 1rem;
+    }
   }
 `
 
