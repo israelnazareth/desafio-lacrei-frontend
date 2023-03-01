@@ -7,7 +7,7 @@ import {
   UsersParagraph,
   MainImage,
   PageImage
-} from '@/styles/CommomStyles';
+} from '@/styles/CommonStyles';
 import { useEffect } from 'react';
 
 export default function UserPage() {
