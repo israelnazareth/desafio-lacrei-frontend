@@ -22,7 +22,7 @@ export default function Home() {
             <LinkButton href="/profissional" className="secondary">Profissional</LinkButton>
           </MainButtons>
         </MainContent>
-        <PageImage src={HomeImage} alt="Home Image" />
+        <PageImage src={HomeImage} alt="A health professional" />
       </MainContainer>
     </>
   )

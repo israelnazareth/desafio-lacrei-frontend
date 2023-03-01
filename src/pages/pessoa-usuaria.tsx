@@ -6,7 +6,7 @@ import {
   MainTitle,
   MainParagraph,
   PageImage
-} from '@/styles/UserPage';
+} from '@/styles/CommonPages';
 
 export default function UserPage() {
   return (
@@ -16,7 +16,7 @@ export default function UserPage() {
           <MainTitle>Pessoa Usuária</MainTitle>
           <MainParagraph>A Lacrei garante que pessoas LGBTQIAPN + recebam atendimento realizado por profissionais de qualidade e que atendam às suas necessidades de forma segura e acolhedora.</MainParagraph>
         </MainContent>
-        <PageImage src={UserImage} alt="User Image Page" />
+        <PageImage src={UserImage} alt="Three people using smartphones" />
       </MainContainer>
     </>
   )
