@@ -21,7 +21,7 @@ export const MainContainer = styled.main`
 `;
 
 export const MainContent = styled.div`
-  max-width: 540px;
+  max-width: 535px;
 `;
 
 export const MainTitle = styled.h2`
@@ -41,6 +41,9 @@ export const MainParagraph = styled.p`
   margin-top: 0.875rem;
   font-size: 0.875rem;
   color: #515151;
+  border-left: none;
+  padding-left: 0;
+  line-height: 1.25rem;
 
   @media (min-width: 520px) {
     font-size: 1rem;
@@ -52,6 +55,11 @@ export const MainParagraph = styled.p`
     margin-top: 2rem;
     line-height: 2rem;
   }
+`;
+
+export const UsersParagraph = styled(MainParagraph)`
+  border-left: 5px solid #018762;
+  padding-left: 1rem;
 `;
 
 export const MainButtons = styled.div`

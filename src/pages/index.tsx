@@ -9,7 +9,7 @@ import {
   LinkButton,
   MainImage,
   PageImage
-} from "@/styles/Home"
+} from "@/styles/CommomStyles"
 import { useEffect } from 'react'
 
 export default function Home() {

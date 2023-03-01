@@ -4,10 +4,10 @@ import {
   MainContainer,
   MainContent,
   MainTitle,
-  MainParagraph,
+  UsersParagraph,
   MainImage,
   PageImage
-} from '@/styles/CommonPages';
+} from '@/styles/CommomStyles';
 import { useEffect } from 'react';
 
 export default function ProfessionalPage() {
@@ -20,7 +20,7 @@ export default function ProfessionalPage() {
       <MainContainer>
         <MainContent>
           <MainTitle>Profissional</MainTitle>
-          <MainParagraph>Buscamos recrutar pessoas profissionais da saúde que entendam as necessidades e se comprometam com o bem-estar da comunidade LGBTQIAPN+</MainParagraph>
+          <UsersParagraph>Buscamos recrutar pessoas profissionais da saúde que entendam as necessidades e se comprometam com o bem-estar da comunidade LGBTQIAPN+</UsersParagraph>
         </MainContent>
         <MainImage>
           <PageImage src={ProfessionalImage} alt="Five health professional" />

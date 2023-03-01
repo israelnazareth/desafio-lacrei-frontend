@@ -4,10 +4,10 @@ import {
   MainContainer,
   MainContent,
   MainTitle,
-  MainParagraph,
+  UsersParagraph,
   MainImage,
   PageImage
-} from '@/styles/CommonPages';
+} from '@/styles/CommomStyles';
 import { useEffect } from 'react';
 
 export default function UserPage() {
@@ -20,7 +20,7 @@ export default function UserPage() {
       <MainContainer>
         <MainContent>
           <MainTitle>Pessoa Usuária</MainTitle>
-          <MainParagraph>A Lacrei garante que pessoas LGBTQIAPN + recebam atendimento realizado por profissionais de qualidade e que atendam às suas necessidades de forma segura e acolhedora.</MainParagraph>
+          <UsersParagraph>A Lacrei garante que pessoas LGBTQIAPN + recebam atendimento realizado por profissionais de qualidade e que atendam às suas necessidades de forma segura e acolhedora.</UsersParagraph>
         </MainContent>
         <MainImage>
           <PageImage src={UserImage} alt="Three people using smartphones" />
