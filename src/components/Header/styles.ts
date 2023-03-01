@@ -19,6 +19,12 @@ export const HeaderContainer = styled.header`
       opacity: 0.7;
     }
   }
+
+  @media (min-width: 520px) {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.5rem 2rem;
+  }
 `;
 
 export const HeaderNav = styled.nav`
@@ -39,9 +45,15 @@ export const HeaderNav = styled.nav`
     }
   }
 
-
-
   .selected {
     color: #018762;
+  }
+
+  @media (min-width: 520px) {
+    justify-content: flex-end;
+    gap: 2rem;
+    a {
+      font-size: 1rem;
+    }
   }
 `;
