@@ -20,6 +20,15 @@ export const FooterLinks = styled.div`
     color: #313131;
     text-decoration: none;
     font-size: 0.875rem;
+    transition: all 0.2s ease 0s;
+    
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+
+  .selected {
+    font-weight: bold;
   }
 `
 
