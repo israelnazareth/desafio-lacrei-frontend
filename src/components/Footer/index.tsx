@@ -42,13 +42,13 @@ export default function Header() {
           </Link>
         </FooterLinks>
         <FooterSocials>
-          <Link href="https://www.instagram.com/lacrei.saude">
+          <Link href="https://www.instagram.com/lacrei.saude" target="_blank">
             <Image src={InstagramLogo} alt="Instagram Logo" width={32} />
           </Link>
-          <Link href="https://www.facebook.com/lacrei.saude">
+          <Link href="https://www.facebook.com/lacrei.saude" target="_blank">
             <Image src={FacebookLogo} alt="Facebook Logo" width={32} />
           </Link>
-          <Link href="https://www.linkedin.com/company/lacrei">
+          <Link href="https://www.linkedin.com/company/lacrei" target="_blank">
             <Image src={LinkedinLogo} alt="Linkedin Logo" width={32} />
           </Link>
         </FooterSocials>
