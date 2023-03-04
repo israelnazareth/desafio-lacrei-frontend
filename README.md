@@ -1,6 +1,6 @@
 # Boas vindas ao Desafio Lacrei Front-end!
 
-Este foi um desafio proposto pela [Lacrei](https://www.portallacrei.com.br/) que consistia em criar esta Landing Page com informações e objetivos da ONG.
+Este foi um desafio proposto pela [Lacrei](https://www.portallacrei.com.br/) que consistia em criar uma aplicação com rotas para cada tipo de usuário exibindo algumas informações e, ao final da página, os principais links para as redes sociais da ONG.
 
 ## 📺 Vídeo demonstrativo:
 
