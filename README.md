@@ -10,6 +10,7 @@ https://user-images.githubusercontent.com/85763987/222313839-8c024a69-f871-47a9-
 
 ## 🖥️ Tecnologias:
 <p align="center">
+  <a href= "https://react.dev/"><img alt="React.js badge" src="https://img.shields.io/static/v1?logoWidth=15&logoColor=61DAFB&logo=react&label=Library&message=React.js&color=61DAFB"></a>
   <a href= "https://nextjs.org/"><img alt="Next.js badge" src="https://img.shields.io/static/v1?logoWidth=15&logoColor=000&logo=nextdotjs&label=Framework&message=Next.js&color=000"></a>
   <a href= "https://styled-components.com/"><img alt="Tailwind CSS badge" src="https://img.shields.io/static/v1?logoWidth=15&logoColor=DB7093&logo=styled-components&label=Style&message=Styled%20Components%20&color=DB7093"></a>
   <a href= "https://www.typescriptlang.org/"><img alt="TypeScript badge" src="https://img.shields.io/static/v1?logoWidth=15&logoColor=3178c6&logo=TypeScript&label=Language&message=TypeScript&color=3178c6"></a>
